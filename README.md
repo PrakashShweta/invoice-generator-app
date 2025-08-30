@@ -37,7 +37,9 @@ invoice-generator/
 │
 ├── pom.xml # Maven dependencies & build config
 └── README.md # Project documentation
+
 ---
+
 
 ## ⚡ Getting Started
 
