@@ -14,19 +14,29 @@ This project demonstrates how to create professional invoices using *Spring Boot
 ---
 
 ## 📂 Project Structure
-invoice-generator/ ├── 📂 src/main/java/com.invoice.app │   
-├── InvoiceGeneratorApplication.java   # Main Spring Boot app │   
-├── 📂 controller                      # REST APIs │   
-├── 📂 model                           # Data models / POJOs │   
-├── 📂 repository                      # Data access layer │   
-└── 📂 services                        # Business logic │ 
-├── 📂 src/main/resources │   ├── application.properties             # Config file │   
-├── 📂 static                          # Static assets │   
-└── 📂 templates                       # Templates (if used) │ 
-├── 📂 target                              # Build output & generated invoices │   
-├── invoice_*.pdf                      # Generated invoices │ 
-├── 📄 pom.xml                             # Maven dependencies & build config └── 📄 README.md                           # Project documentation
-
+invoice-generator/
+├── src/
+│ └── main/
+│ ├── java/
+│ │ └── com/
+│ │ └── invoice/
+│ │ └── app/
+│ │ ├── InvoiceGeneratorApplication.java # Main Spring Boot application
+│ │ ├── controller/ # REST API controllers
+│ │ ├── model/ # Data models / POJOs
+│ │ ├── repository/ # Data access layer
+│ │ └── service/ # Business logic layer
+│ │
+│ └── resources/
+│ ├── application.properties # Spring Boot configuration
+│ ├── static/ # Static assets (CSS, JS, images)
+│ └── templates/ # Thymeleaf/Freemarker templates
+│
+├── target/ # Build output & generated files
+│ └── invoice_*.pdf # Generated invoices
+│
+├── pom.xml # Maven dependencies & build config
+└── README.md # Project documentation
 ---
 
 ## ⚡ Getting Started
